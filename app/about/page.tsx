@@ -11,37 +11,37 @@ const timeline = [
   { 
     year: "1946", 
     event: "Loimaan Evankelinen Kansanopisto is founded, rooted in Lutheran evangelical tradition.",
-    cartoon: "/tl_1946_faith.png",
+    cartoon: "/leko/tl_1946_faith.png",
     side: "left" as const
   },
   { 
     year: "1970s", 
     event: "Programs expand to include immigrant integration and language education.",
-    cartoon: "/tl_1970_integration.png",
+    cartoon: "/leko/tl_1970_integration.png",
     side: "right" as const
   },
   { 
     year: "1995", 
     event: "Launch of the Mustajärvi Camp Center, adding residential summer programs.",
-    cartoon: "/tl_1995_nature.png",
+    cartoon: "/leko/tl_1995_nature.png",
     side: "left" as const
   },
   { 
     year: "2010", 
     event: "Introduction of the self-sufficiency 'Omavaraa' programs.",
-    cartoon: "/tl_2010_farming.png",
+    cartoon: "/leko/tl_2010_farming.png",
     side: "right" as const
   },
   { 
     year: "2018", 
     event: "Launch of the professional Christian Art Therapy training program.",
-    cartoon: "/tl_2018_art.png",
+    cartoon: "/leko/tl_2018_art.png",
     side: "left" as const
   },
   { 
     year: "2024", 
     event: "Celebrating 78 years of community-centered education and service.",
-    cartoon: "/tl_2024_community.png",
+    cartoon: "/leko/tl_2024_community.png",
     side: "right" as const
   },
 ];
@@ -78,7 +78,7 @@ export default function AboutPage() {
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <motion.div style={{ y: yParallax }} className="absolute inset-0 z-0">
           <Image
-            src="/leko-campus-1.jpg"
+            src="/leko/leko-campus-1.jpg"
             alt="Loimaan Evankelinen Kansanopisto campus"
             fill
             className="object-cover scale-110"
@@ -189,16 +189,16 @@ export default function AboutPage() {
             >
               <div className="pt-12">
                 <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl group">
-                  <Image src="/leko-campus-3.jpg" alt="Campus Life" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src="/leko/leko-campus-3.jpg" alt="Campus Life" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-brand-900/10 group-hover:bg-transparent transition-colors" />
                 </div>
               </div>
               <div>
                 <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl mb-6 group">
-                  <Image src="/leko-campus-4.jpg" alt="Community" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src="/leko/leko-campus-4.jpg" alt="Community" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
                 <div className="relative aspect-square rounded-[2rem] overflow-hidden shadow-2xl group">
-                  <Image src="/leko-campus-2.jpg" alt="Activities" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src="/leko/leko-campus-2.jpg" alt="Activities" fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
               </div>
             </motion.div>

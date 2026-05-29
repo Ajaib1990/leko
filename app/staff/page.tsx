@@ -16,7 +16,7 @@ export default function StaffPage() {
     <div className="min-h-screen bg-white dark:bg-zinc-950">
       {/* Hero */}
       <section className="relative h-[40vh] min-h-[320px] overflow-hidden">
-        <Image src="/leko-campus-2.jpg" alt="Leko staff" fill className="object-cover" priority />
+        <Image src="/leko/leko-campus-2.jpg" alt="Leko staff" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
         <div className="absolute inset-0 flex items-center justify-center flex-col text-center px-6 pt-20">
           <p className="text-brand-400 font-semibold text-sm uppercase tracking-widest mb-3">Our People</p>

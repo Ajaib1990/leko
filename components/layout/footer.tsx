@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center">
               <Image
-                src="/leko-logo.png"
+                src="/leko/leko-logo.png"
                 alt="Loimaan Evankelinen Kansanopisto"
                 width={160}
                 height={38}

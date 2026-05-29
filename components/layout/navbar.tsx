@@ -66,7 +66,7 @@ export function Navbar() {
 
               <div className="hidden lg:flex flex-col -space-y-1">
                 <Image
-                  src="/leko-logo.png"
+                  src="/leko/leko-logo.png"
                   alt="Loimaan Evankelinen Kansanopisto"
                   width={150}
                   height={36}
@@ -78,7 +78,7 @@ export function Navbar() {
                 </span>
               </div>
               <Image
-                src="/leko-logo.png"
+                src="/leko/leko-logo.png"
                 alt="Loimaan Evankelinen Kansanopisto"
                 width={150}
                 height={36}
@@ -183,7 +183,7 @@ export function Navbar() {
                 <div className="flex items-center justify-between mb-10">
                   <Link href="/" className="flex items-center gap-3" onClick={() => setMobileMenuOpen(false)}>
                     <Image
-                      src="/leko-logo.png"
+                      src="/leko/leko-logo.png"
                       alt="Loimaan Evankelinen Kansanopisto"
                       width={130}
                       height={31}

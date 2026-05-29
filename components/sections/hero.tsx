@@ -10,25 +10,25 @@ import { ArrowRight, ChevronLeft, ChevronRight, Play } from "lucide-react";
 const slides = [
   {
     id: 1,
-    image: "/leko-campus-1.jpg",
+    image: "/leko/leko-campus-1.jpg",
     alt: "Loimaan Evankelinen Kansanopisto campus",
     caption: "Our beautiful campus in Loimaa",
   },
   {
     id: 2,
-    image: "/leko-campus-2.jpg",
+    image: "/leko/leko-campus-2.jpg",
     alt: "Students at Leko campus",
     caption: "A welcoming community for all learners",
   },
   {
     id: 3,
-    image: "/leko-campus-3.jpg",
+    image: "/leko/leko-campus-3.jpg",
     alt: "Leko education activities",
     caption: "Hands-on learning and personal growth",
   },
   {
     id: 4,
-    image: "/leko-campus-4.jpg",
+    image: "/leko/leko-campus-4.jpg",
     alt: "Leko outdoor life and activities",
     caption: "Nature, self-sufficiency and community",
   },
